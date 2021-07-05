@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4912f6;
+    color: white;
+}
+
+.section-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.logo{
+    flex-grow: 80;
+    margin-left: 20px;
+}
+
+.login{
+    flex-grow:10;
+}
+
+.button{
+    flex-grow: 10;
+    margin-left: 10px;
+}
+
+input[type='button']{
+    flex-grow:10;
+    background-color: orange;
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 30px;
+
+    
+}
+
+a{
+    color: lightgray;
+    text-decoration: none;
+    font-size:15px;
+    
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.text{
+    flex: 0 1 400px;
+    padding-top: 100px;
+    margin-right: 120px;
+}
+
+#picture1{
+    flex: 0 1 400px;
+}
+
+.title1{
+    color:white;
+    font-size: 35px;
+    padding-bottom: 10px;
+    
+}
+
+.title2{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.paragraph{
+    color: lightgrey;
+    margin-top:20px;
+}
+
+.featured{
+    font-size: 12px;
+    color:lightgrey;
+    margin-top: 10px;
+}
+
+#sessions{
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px 30px;
+    width: 200px;
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#technology{
+   flex: 0 1 50;
+   width: 500px
+}
+
+#behavior{
+    flex: 0 1 50; 
+    width: 500px;
+    margin-left: 200px;
+}
+
+.explore{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+
+
+}
